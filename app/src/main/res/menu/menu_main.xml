@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.biboy.ictraffle.MainActivity">
+
+
+    <item
+        android:id="@+id/campus"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Campus"/>
+
+    <item
+        android:id="@+id/setip"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Override"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Set winner"/>
+    <item
+        android:id="@+id/reset"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Reset"/>
+</menu>
